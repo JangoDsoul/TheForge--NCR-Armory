@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--=== Category Base ===-->
+  
+    <ThingCategoryDef>
+		<defName>JDSNCRArmory_Main</defName>
+		<label>NCR Armory</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+  
+	<!--=== Armor ===-->
+  
+    <ThingCategoryDef>
+		<defName>JDSNCRApparel_Standard</defName>
+		<label>NCR Apparel</label>
+		<parent>JDSNCRArmory_Main</parent>
+	</ThingCategoryDef>
+  
+	<!--=== Helmet ===-->
+
+	<ThingCategoryDef>
+		<defName>JDSNCRHeadgear_Standard</defName>
+		<label>NCR Headgear</label>
+		<parent>JDSNCRArmory_Main</parent>
+	</ThingCategoryDef>
+  
+</Defs>

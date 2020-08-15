@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--==============================================
+	================ NCR Pith Hat ====================
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRHeadgearBase">
+		<defName>JDS_NCR_Pith_Hat</defName>
+		<label>NCR Pith Hat</label>
+		<description>"It is a dully colored helmet with a pair of goggles located on the brim, and a pack of Pyramid cigarettes in the loop of the helmet. It has a very rough "mass-produced" look to it, as it is issued to all NCR soldiers and MPs."</description>
+	<graphicData>
+      <texPath>Things/UI/NCR_Pith_Hat_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Headgear/NCR_Pith_Hat/NCR_Pith_Hat</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Headgear</li>			
+			<li>JDS_NCRArmory_Pith_Hat</li>			
+		</tags>
+    </apparel>	
+    <statBases>
+		<WorkToMake>4000</WorkToMake>
+		<MaxHitPoints>110</MaxHitPoints>
+		<Mass>1.2</Mass>
+		<Flammability>0.1</Flammability>
+		<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.3</ArmorRating_Heat>
+		<Insulation_Cold>6</Insulation_Cold>
+		<Insulation_Heat>17</Insulation_Heat>
+		<EquipDelay>1</EquipDelay>
+    </statBases>
+    <costList>
+		<Steel>20</Steel>
+		<Cloth>120</Cloth>
+    </costList>
+  </ThingDef>
+
+	<!--==============================================
+	========== NCR Pith Hat Goggles Down =============
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRHeadgearBase">
+		<defName>JDS_NCR_Pith2_Hat</defName>
+		<label>NCR Pith Hat Goggles Down</label>
+		<description>"It is a dully colored helmet with a pair of goggles located on the brim, and a pack of Pyramid cigarettes in the loop of the helmet. It has a very rough "mass-produced" look to it, as it is issued to all NCR soldiers and MPs."</description>
+	<graphicData>
+      <texPath>Things/UI/NCR_Pith_Hat2_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Headgear/NCR_Pith_Hat2/NCR_Pith_Hat2</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Headgear</li>			
+			<li>JDS_NCRArmory_Pith2_Hat</li>			
+		</tags>
+    </apparel>	
+    <statBases>
+		<WorkToMake>4000</WorkToMake>
+		<MaxHitPoints>110</MaxHitPoints>
+		<Mass>1.2</Mass>
+		<Flammability>0.1</Flammability>
+		<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.3</ArmorRating_Heat>
+		<Insulation_Cold>6</Insulation_Cold>
+		<Insulation_Heat>17</Insulation_Heat>
+		<EquipDelay>1</EquipDelay>
+    </statBases>
+    <costList>
+		<Steel>20</Steel>
+		<Cloth>120</Cloth>
+    </costList>
+  </ThingDef>
+
+	<!--==============================================
+	============== NCR Pith Face Wrap ================
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRHeadgearBase">
+		<defName>JDS_NCR_Wrap_Pith_Hat</defName>
+		<label>NCR Pith Face Wrap</label>
+		<description>"It is a dully colored helmet with a pair of goggles located on the brim, and a pack of Pyramid cigarettes in the loop of the helmet. It has a very rough "mass-produced" look to it, as it is issued to all NCR soldiers and MPs."</description>
+	<graphicData>
+      <texPath>Things/UI/NCR_Wrap_Pith_Hat_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Headgear/NCR_Wrap_Pith_Hat/NCR_Wrap_Pith_Hat</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Headgear</li>			
+			<li>JDS_NCRArmory_Wrap_Pith_Hat</li>			
+		</tags>
+    </apparel>	
+    <statBases>
+		<WorkToMake>4000</WorkToMake>
+		<MaxHitPoints>110</MaxHitPoints>
+		<Mass>1.2</Mass>
+		<Flammability>0.1</Flammability>
+		<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.3</ArmorRating_Heat>
+		<Insulation_Cold>6</Insulation_Cold>
+		<Insulation_Heat>17</Insulation_Heat>
+		<EquipDelay>1</EquipDelay>
+    </statBases>
+    <costList>
+		<Steel>20</Steel>
+		<Cloth>120</Cloth>
+    </costList>
+  </ThingDef>
+
+	<!--==============================================
+	======= NCR Pith Face Wrap goggles Down ==========
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRHeadgearBase">
+		<defName>JDS_NCR_Wrap2_Pith_Hat</defName>
+		<label>NCR Pith Face Wrap goggles Down</label>
+		<description>"It is a dully colored helmet with a pair of goggles located on the brim, and a pack of Pyramid cigarettes in the loop of the helmet. It has a very rough "mass-produced" look to it, as it is issued to all NCR soldiers and MPs."</description>
+	<graphicData>
+      <texPath>Things/UI/NCR_Wrap_Pith_Hat2_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Headgear/NCR_Wrap_Pith_Hat2/NCR_Wrap_Pith_Hat2</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Headgear</li>			
+			<li>JDS_NCRArmory_Wrap2_Pith_Hat</li>			
+		</tags>
+    </apparel>	
+    <statBases>
+		<WorkToMake>4000</WorkToMake>
+		<MaxHitPoints>110</MaxHitPoints>
+		<Mass>1.2</Mass>
+		<Flammability>0.1</Flammability>
+		<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.3</ArmorRating_Heat>
+		<Insulation_Cold>6</Insulation_Cold>
+		<Insulation_Heat>17</Insulation_Heat>
+		<EquipDelay>1</EquipDelay>
+    </statBases>
+    <costList>
+		<Steel>20</Steel>
+		<Cloth>120</Cloth>
+    </costList>
+  </ThingDef>
+
+	<!--==============================================
+	================ NCR Ranger Hat ==================
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRHeadgearBase">
+		<defName>JDS_NCR_Ranger_Hat</defName>
+		<label>NCR Ranger Hat</label>
+		<description>"A campaign cover, also known as a "lemon squeezer" that is standard-issue to NCR patrol rangers. It is made of a stiff light khaki material and sports a polished brass Ranger cap badge, worn together as part of a uniform alongside handmade combat armor."</description>
+	<graphicData>
+      <texPath>Things/UI/NCR_Ranger_Hat_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Headgear/NCR_Ranger_hat/NCR_Ranger_hat</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Headgear</li>			
+			<li>JDS_NCRArmory_Ranger_Hat</li>			
+		</tags>
+    </apparel>	
+    <statBases>
+		<WorkToMake>2500</WorkToMake>
+		<MaxHitPoints>90</MaxHitPoints>
+		<Mass>1</Mass>
+		<Flammability>0.1</Flammability>
+		<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.5</ArmorRating_Heat>
+		<Insulation_Cold>6</Insulation_Cold>
+		<Insulation_Heat>17</Insulation_Heat>
+		<EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+	    <NegotiationAbility>0.25</NegotiationAbility>		
+	</equippedStatOffsets>
+    <costList>
+		<Cloth>100</Cloth>
+    </costList>
+  </ThingDef>
+
+	<!--==============================================
+	================== NCR Beret =====================
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRHeadgearBase">
+		<defName>JDS_NCR_Beret</defName>
+		<label>NCR Beret</label>
+		<description>"A beret is a soft round cap, usually of wool felt, with a flat crown that tilts to one side. The New California Republic use green berets to identify officers of the New California Republic Army."</description>
+	<graphicData>
+      <texPath>Things/UI/NCR_Beret_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Headgear/NCR_Beret/NCR_Beret</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Headgear</li>			
+			<li>JDS_NCRArmory_Beret</li>			
+		</tags>
+    </apparel>	
+    <statBases>
+		<WorkToMake>2500</WorkToMake>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Mass>1</Mass>
+		<Flammability>0.1</Flammability>
+		<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.5</ArmorRating_Heat>
+		<Insulation_Cold>6</Insulation_Cold>
+		<Insulation_Heat>17</Insulation_Heat>
+		<EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+	    <NegotiationAbility>0.30</NegotiationAbility>		
+	</equippedStatOffsets>
+    <costList>
+		<Cloth>80</Cloth>
+    </costList>
+  </ThingDef>
+
+	<!--==============================================
+	========== NCR Ranger Combat Helmet ==============
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRHeadgearBase">
+		<defName>JDS_NCR_Ranger_Combat_Helmet</defName>
+		<label>NCR Ranger Combat Helmet</label>
+		<description>"Its creation was based on the Desert Ranger combat armor for the NCR Veteran Rangers after the merge between the Desert Rangers and the NCR Rangers in 2271. It is often referred to as the "Black Armor," and is considered to be one of the most valuable and awe-inspiring items in the entire Republic."</description>
+	<graphicData>
+      <texPath>Things/UI/NCR_Ranger_Combat_Helmet_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Headgear/NCR_Ranger_CombatHelmet/NCR_Ranger_CombatHelmet</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Headgear</li>			
+			<li>JDS_NCRArmory_Ranger_Combat_Helmet</li>			
+		</tags>
+    </apparel>	
+    <statBases>
+		<WorkToMake>8500</WorkToMake>
+		<MaxHitPoints>210</MaxHitPoints>
+		<Mass>3.4</Mass>
+		<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+		<ArmorRating_Blunt>1</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.63</ArmorRating_Heat>
+		<Insulation_Cold>20</Insulation_Cold>
+		<Insulation_Heat>23</Insulation_Heat>
+		<EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<ToxicSensitivity>-0.98</ToxicSensitivity>
+		<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+	    <NegotiationAbility>0.10</NegotiationAbility>		
+	</equippedStatOffsets>
+    <costList>
+		<Steel>100</Steel>
+		<Plasteel>50</Plasteel>
+		<ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+  </ThingDef>
+
+	<!--==============================================
+	== NCR Salvaged Power Armor HelmetCasque Helmet ==
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRHeadgearBase">
+		<defName>JDS_NCR_SalvagedPowerArmor_Helmet</defName>
+		<label>NCR Salvaged Power Armor Helmet</label>
+		<description>"The NCR salvaged power armor is a piece of armor"</description>
+	<graphicData>
+      <texPath>Things/UI/NCR_SalvagedPowerArmor_Helmet_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Headgear/NCR_SalvagedPowerArmor_Helmet/NCR_SalvagedPowerArmor_Helmet</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Headgear</li>			
+			<li>JDS_NCRArmory_SalvagedPowerArmor_Helmet</li>			
+		</tags>
+    </apparel>	
+    <statBases>
+		<WorkToMake>11000</WorkToMake>
+		<MaxHitPoints>320</MaxHitPoints>
+		<Mass>8</Mass>
+		<ArmorRating_Sharp>1.4</ArmorRating_Sharp>
+		<ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+		<ArmorRating_Heat>1</ArmorRating_Heat>
+		<Insulation_Cold>6</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+		<EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<ToxicSensitivity>-0.98</ToxicSensitivity>
+		<ShootingAccuracyPawn>0.40</ShootingAccuracyPawn>
+	    <NegotiationAbility>0.20</NegotiationAbility>		
+	</equippedStatOffsets>
+    <costList>
+		<Steel>100</Steel>
+		<Plasteel>50</Plasteel>
+		<ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+  </ThingDef>
+
+</Defs>

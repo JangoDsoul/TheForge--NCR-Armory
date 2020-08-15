@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--==============================================
+	==================== Weapons =========================
+	===============================================-->	
+  
+  <ThingDef Name="JDSNCRGunBase" ParentName="BaseHumanMakeableGun" Abstract="True">
+	<techLevel>Industrial</techLevel>
+	<tradeability>Sellable</tradeability>	
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<weaponTags>
+      <li>NCRWeapon</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+	<recipeMaker>
+		<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+		<researchPrerequisite>JDSENCRArmoryCraft</researchPrerequisite>		
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<recipeUsers Inherit="False">
+			<li>JDSWorkBench</li>
+        </recipeUsers>
+	</recipeMaker>	
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>	
+  </ThingDef>
+
+	<!--==============================================
+	================== Projectile ====================
+	===============================================-->	
+  
+  <ThingDef Name="JDSNCRBullet" ParentName="BaseBullet" Abstract="True">
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+ 
+	<!--========== Low ==========-->
+  
+   <ThingDef ParentName="JDSNCRBullet">
+    <defName>Low_Damage_NCR_Bullet</defName>
+    <label>Small Caliber Bullet</label>
+	<projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>	
+
+	<!--========== Middle ==========-->
+
+  <ThingDef ParentName="JDSNCRBullet">
+    <defName>Mid_Damage_NCR_Bullet</defName>
+    <label>Mid-Size Caliber Bullet</label>
+	<projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>	
+
+	<!--========== High ==========-->
+  
+   <ThingDef ParentName="JDSNCRBullet">
+    <defName>High_Damage_NCR_Bullet</defName>
+    <label>High Caliber Bullet</label>
+	<projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+	  <stoppingPower>1</stoppingPower>	
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>	  
+  
+ 	<!--========== Ultra ==========-->
+  
+   <ThingDef ParentName="JDSNCRBullet">
+    <defName>Ultra_Damage_NCR_Bullet</defName>
+    <label>.50 Cal Bullet</label>
+	<projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>50</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.34</armorPenetrationBase>		  
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>	 
+  
+    <!-- magic
+    <ThingCategoryDef>
+      <defName>LS_Magic</defName>
+      <label>magic</label>
+      <parent>Weapons</parent>
+	</ThingCategoryDef> -->
+	<!--<drawSize></drawSize>-->
+	<!--<equippedAngleOffset></equippedAngleOffset>-->
+  
+</Defs>

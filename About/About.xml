@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<ModMetaData>
+		<name>[JDS] The Forge - NCR Armory</name>
+		<author>JangoD'soul</author>
+		<supportedVersions>
+			<li>1.1</li>
+			<li>1.2</li>			
+		</supportedVersions>
+		<packageId>JangoDsoul.TheForge.NCRArmory</packageId>
+		<description>
+This Add NCR Apparel and Weapon from Fallout: New Vegas
+
+
+[h1]Features:[/h1]
+	-Adds 7 NCR Apparel
+	-Adds 8 NCR Headgeaer
+	-Adds 7 Weapons
+
+[url=https://docs.google.com/spreadsheets/d/1zvqxTx8QTlhCnzg7jfhQmTL01MimnleYVe_9_RELgwo/edit?usp=sharing] NCR Armory Stats [/url]	
+	
+[h1]recommend Mod:[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1678847247] Graphics Settings - Fix your textures! [/url]
+
+[h1]credits:[/h1] 	
+	
+Obsidian Entertainment - For the development of Fallout: New Vegas
+		</description>
+		<modDependencies>
+			<li>
+				<displayName>[JDS] The Forge - Anvil</displayName>			
+				<packageId>JangoDsoul.TheForge.Anvil</packageId>
+				<steamWorkshopUrl>steam://url/CommunityFilePage/1967561500</steamWorkshopUrl>
+			</li>
+		</modDependencies>
+<!--	<loadBefore>
+			<li>ModderName.ModSeries.ModName</li>
+		</loadBefore> -->	
+		<loadAfter>
+			<li>JangoDsoul.TheForge.Anvil</li>
+		</loadAfter>
+	</ModMetaData>

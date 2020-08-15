@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<!--==============================================
+	============== NCR Fatigues Armor ================
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRApparelBase">
+		<defName>JDS_NCR_FatiguesArmor</defName>
+		<label>NCR Fatigues Armor</label>
+		<description>"The standard NCR trooper's uniform is one of the several variants of NCR armor. Composed of a khaki tunic with bellowed hip pockets and khaki breeches, worn with a desert facewrap and hardened leather pauldrons, black leather fingerless gloves, arm wraps, brown boots and khaki puttees. The uniform was designed to resist the rigors of the desert and long campaigns."</description>  
+	<graphicData>
+		<texPath>Things/UI/NCR_Fatigues_Armor_UI</texPath>
+    </graphicData>
+	<apparel>
+		<wornGraphicPath>Things/Apparel/NCR_FatiguesArmor/NCR_FatiguesArmor</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Apparel</li>			
+			<li>JDS_NCRArmory_FatiguesArmor</li>			
+		</tags>			
+    </apparel>
+    <statBases>
+		<WorkToMake>9000</WorkToMake>
+		<MaxHitPoints>270</MaxHitPoints>
+		<Mass>4</Mass>
+		<Flammability>0.1</Flammability>
+		<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.1</ArmorRating_Heat>
+		<Insulation_Cold>12</Insulation_Cold>
+		<Insulation_Heat>16</Insulation_Heat>
+		<EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<SocialImpact>0.35</SocialImpact>
+		<MoveSpeed>-0.08</MoveSpeed>
+	</equippedStatOffsets>
+	<costList>
+		<Steel>20</Steel>
+		<Cloth>100</Cloth>		
+	</costList>	
+  </ThingDef>
+
+	<!--==============================================
+	============== NCR_TrooperArmor ==================
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRApparelBase">
+		<defName>JDS_NCR_TrooperArmor</defName>
+		<label>NCR Trooper Armor</label>
+		<description>"The standard NCR trooper's uniform is one of the several variants of NCR armor. Composed of a khaki tunic with bellowed hip pockets and khaki breeches, worn with a desert facewrap and hardened leather pauldrons, black leather fingerless gloves, arm wraps, brown boots and khaki puttees. The uniform was designed to resist the rigors of the desert and long campaigns."</description>  
+	<graphicData>
+		<texPath>Things/UI/NCR_Trooper_Armor_UI</texPath>
+    </graphicData>
+	<apparel>
+		<wornGraphicPath>Things/Apparel/NCR_TrooperArmor/NCR_Trooper_Armor</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Apparel</li>			
+			<li>JDS_NCRArmory_TrooperArmor</li>			
+		</tags>			
+	</apparel>	
+    <statBases>
+		<WorkToMake>10000</WorkToMake>
+		<MaxHitPoints>300</MaxHitPoints>
+		<Mass>4.5</Mass>
+		<Flammability>0.1</Flammability>
+		<ArmorRating_Sharp>1</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.1</ArmorRating_Heat>
+		<Insulation_Cold>12</Insulation_Cold>
+		<Insulation_Heat>16</Insulation_Heat>
+		<EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<SocialImpact>0.35</SocialImpact>
+		<MoveSpeed>-0.08</MoveSpeed>
+	    <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
+	</equippedStatOffsets>
+	<costList>
+		<Steel>100</Steel>
+		<Cloth>100</Cloth>		
+	</costList>	
+  </ThingDef>
+  
+	<!--==============================================
+	============== NCR Bandoleer Armor ===============
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRApparelBase">
+		<defName>JDS_NCR_BandoleerArmor</defName>
+		<label>NCR Bandoleer Armor</label>
+		<description>"The standard NCR trooper's uniform is one of the several variants of NCR armor. Composed of a khaki tunic with bellowed hip pockets and khaki breeches, worn with a desert facewrap and hardened leather pauldrons, black leather fingerless gloves, arm wraps, brown boots and khaki puttees. The uniform was designed to resist the rigors of the desert and long campaigns."</description>  
+	<graphicData>
+		<texPath>Things/UI/NCR_Bandoleer_Armor_UI</texPath>	
+    </graphicData>
+	<apparel>
+		<wornGraphicPath>Things/Apparel/NCR_BandoleerArmor/NCR_BandoleerArmor</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Apparel</li>			
+			<li>JDS_NCRArmory_BandoleerArmor</li>			
+		</tags>			
+	</apparel>			
+    <statBases>
+		<WorkToMake>10000</WorkToMake>
+		<MaxHitPoints>10000</MaxHitPoints>
+		<Mass>4.5</Mass>
+		<Flammability>0.1</Flammability>
+		<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.53</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.1</ArmorRating_Heat>
+		<Insulation_Cold>12</Insulation_Cold>
+		<Insulation_Heat>16</Insulation_Heat>
+		<EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<SocialImpact>0.35</SocialImpact>
+		<MoveSpeed>-0.11</MoveSpeed>
+		<CarryingCapacity>0.20</CarryingCapacity>
+	    <ShootingAccuracyPawn>0.50</ShootingAccuracyPawn>
+	</equippedStatOffsets>
+	<costList>
+		<Steel>120</Steel>
+		<Cloth>150</Cloth>		
+	</costList>	
+  </ThingDef> 
+ 
+	<!--==============================================
+	============== NCR Mantle Armor ==================
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRApparelBase">
+		<defName>JDS_NCR_MantleArmor</defName>
+		<label>NCR Mantle Armor</label>
+		<description>"The standard NCR trooper's uniform is one of the several variants of NCR armor. Composed of a khaki tunic with bellowed hip pockets and khaki breeches, worn with a desert facewrap and hardened leather pauldrons, black leather fingerless gloves, arm wraps, brown boots and khaki puttees. The uniform was designed to resist the rigors of the desert and long campaigns."</description>  
+	<graphicData>
+		<texPath>Things/UI/NCR_Mantle_Armor_UI</texPath>
+    </graphicData>
+	<apparel>
+		<wornGraphicPath>Things/Apparel/NCR_MantleArmor/NCR_MantleArmor</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Apparel</li>			
+			<li>JDS_NCRArmory_MantleArmor</li>			
+		</tags>			
+	</apparel>			
+    <statBases>
+		<WorkToMake>10000</WorkToMake>
+		<MaxHitPoints>300</MaxHitPoints>
+		<Mass>4.5</Mass>
+		<Flammability>0.1</Flammability>
+		<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.52</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.1</ArmorRating_Heat>
+		<Insulation_Cold>12</Insulation_Cold>
+		<Insulation_Heat>16</Insulation_Heat>
+		<EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<SocialImpact>0.60</SocialImpact>
+		<MoveSpeed>-0.10</MoveSpeed>
+	    <ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+	</equippedStatOffsets>
+	<costList>
+		<Steel>120</Steel>
+		<Cloth>200</Cloth>		
+	</costList>	
+  </ThingDef>
+
+	<!--==============================================
+	=========== NCR Ranger Patrol Armor ==============
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRApparelBase">
+		<defName>JDS_NCR_RangerPatrolArmor</defName>
+		<label>NCR Ranger Patrol Armor</label>
+		<description>"Modeled after the human silhouette, combat armors were designed to provide balanced protection without limiting user mobility. They are a diverse family of personal body armor with varying degrees of sophistication, ranging from the earliest iterations developed by the United States Army."</description>  
+	<graphicData>
+		<texPath>Things/UI/NCR_RangerPatrol_Armor_UI</texPath>	
+    </graphicData>
+	<apparel>
+		<wornGraphicPath>Things/Apparel/NCR_RangerPatrolArmor/NCR_RangerPatrolArmor</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Apparel</li>			
+			<li>JDS_NCRArmory_RangerPatrolArmor</li>			
+		</tags>		
+	</apparel>			
+    <statBases>
+		<WorkToMake>12000</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<Mass>5.5</Mass>
+		<ArmorRating_Sharp>1.22</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.15</ArmorRating_Heat>
+		<Insulation_Cold>12</Insulation_Cold>
+		<Insulation_Heat>20</Insulation_Heat>
+		<EquipDelay>8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<SocialImpact>0.60</SocialImpact>
+		<MoveSpeed>-0.15</MoveSpeed>
+	    <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+	</equippedStatOffsets>
+	<costList>
+		<Steel>350</Steel>
+		<Cloth>50</Cloth>
+		<ComponentIndustrial>2</ComponentIndustrial>	
+	</costList>	
+  </ThingDef>
+
+	<!--==============================================
+	=========== NCR Ranger Combat Armor ==============
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRApparelBase">
+		<defName>JDS_NCR_RangerCombatArmor</defName>
+		<label>NCR Ranger Combat Armor</label>
+		<description>"A military-grade armor originally used by L.A.P.D. riot squads, this combat outfit is typically worn with a matching military helmet with built-in low light optics, a combination IR/white light lamp and gas mask.[1] It is worn with the Desert Rangers style duster (with the NCR Rangers' insignia on the left flap) and a set of rodeo jeans."</description>  
+	<graphicData>
+		<texPath>Things/UI/NCR_RangerCombat_Armor_UI</texPath>	
+    </graphicData>
+	<apparel>
+		<wornGraphicPath>Things/Apparel/NCR_RangerCombatArmor/NCR_RangerCombatArmor</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Apparel</li>			
+			<li>JDS_NCRArmory_RangerCombatArmor</li>			
+		</tags>			
+	</apparel>			
+    <statBases>
+		<WorkToMake>12500</WorkToMake>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Mass>7.6</Mass>
+		<ArmorRating_Sharp>1.3</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.27</ArmorRating_Heat>
+		<Insulation_Cold>17</Insulation_Cold>
+		<Insulation_Heat>20</Insulation_Heat>
+		<EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<SocialImpact>0.35</SocialImpact>
+		<MoveSpeed>-0.10</MoveSpeed>
+	</equippedStatOffsets>
+	<costList>
+		<Steel>250</Steel>
+		<Plasteel>100</Plasteel>
+		<Cloth>100</Cloth>	
+		<ComponentIndustrial>5</ComponentIndustrial>		
+	</costList>	
+  </ThingDef>  
+  
+	<!--==============================================
+	========== NCR Salvaged Power Armor ==============
+	===============================================-->	
+
+  <ThingDef ParentName="JDSNCRApparelBase">
+		<defName>JDS_NCR_SalvagedPowerArmor</defName>
+		<label>NCR Salvaged Power Armor</label>
+		<description>"NCR salvaged power armor is T-45d power armor recovered by the NCR during the NCR-Brotherhood War. NCR technicians stripped out the servomotors and replaced the rad scrubbers with a custom air conditioning module, allowing it to be used by soldiers without the need of Power Armor Training. The process, however, dramatically reduces its effectiveness, as "It feels like you're carrying a brahmin on your back"."</description>  
+	<graphicData>
+		<texPath>Things/UI/NCR_SalvagedPower_Armor_UI</texPath>
+    </graphicData>
+	<apparel>
+		<wornGraphicPath>Things/Apparel/NCR_SalvagedPowerArmor/NCR_SalvagedPowerArmor</wornGraphicPath>
+		<tags>
+			<li>JDS_NCRArmory_Apparel</li>			
+			<li>JDS_NCRArmory_SalvagedPowerArmor</li>			
+		</tags>			
+	</apparel>			
+    <statBases>
+		<WorkToMake>20000</WorkToMake>
+		<MaxHitPoints>600</MaxHitPoints>
+		<Mass>11</Mass>
+		<ArmorRating_Sharp>1.43</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.95</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.27</ArmorRating_Heat>
+		<Insulation_Cold>16</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+		<EquipDelay>11</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<SocialImpact>0.15</SocialImpact>
+		<MoveSpeed>-0.20</MoveSpeed>
+		<CarryingCapacity>0.20</CarryingCapacity>
+	    <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
+	</equippedStatOffsets>
+	<costList>
+		<Steel>200</Steel>
+		<Plasteel>250</Plasteel>
+		<Uranium>5</Uranium>	
+		<ComponentIndustrial>10</ComponentIndustrial>		
+	</costList>	
+  </ThingDef>  
+ 
+</Defs>
